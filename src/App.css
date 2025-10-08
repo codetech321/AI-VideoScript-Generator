@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+/* Headings */
+h2 {
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Responsive typography */
+h2 {
+  font-size: 2rem !important; /* Base: 32px */
+}
+
+@media (min-width: 480px) {
+  h2 {
+    font-size: 2.5rem !important; /* ~40px */
+  }
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 3rem !important; /* ~48px */
+  }
+}
+
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 3.5rem !important; /* ~56px */
+  }
+}
+
+/* Optional smooth scrollbar on web */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a855f7;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
